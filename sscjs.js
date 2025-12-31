@@ -1,3 +1,9 @@
+// Hide loader after 4 seconds
+var loader = document.querySelector("#loader")
+setTimeout(function(){
+   loader.style.top = "-100%"
+}, 4000)
+
 var elemC =document.querySelector("#elem-container")
 var fixed =document.querySelector("#fixed-image")
 elemC.addEventListener("mouseenter",function(){
