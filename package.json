@@ -2,12 +2,15 @@
   "name": "sundown-studio",
   "version": "1.0.0",
   "description": "Sundown Studio Project",
-  "main": "index.html",
+  "private": true,
   "scripts": {
-    "start": "http-server",
-    "build": ""
+    "start": "http-server .",
+    "build": "echo 'Static site - no build required'"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
