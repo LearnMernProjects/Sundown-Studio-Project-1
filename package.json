@@ -1,0 +1,13 @@
+{
+  "name": "sundown-studio",
+  "version": "1.0.0",
+  "description": "Sundown Studio Project",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
